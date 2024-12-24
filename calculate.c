@@ -32,9 +32,6 @@ if(SecondNumeral == 0)
 printf("Ошибка: деление на ноль! "); 
 return(HUGE_VAL); 
 } 
-float Abs(float Numeral) {
-  return (Numeral < 0) ? -Numeral : Numeral;
-}
 else 
 return(Numeral / SecondNumeral); 
 } 
